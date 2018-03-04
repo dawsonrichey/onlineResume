@@ -4995,18 +4995,17 @@ hr.shadowDown {
 }
 
 .portfolio2 .project-content .project-overflow{
-    position: absolute; 
+    position: absolute;
     width: 100%;
     height: 100%;
     bottom: 10%;
     opacity: 1;
-    background-color: rgba(22, 190, 182, 0); 
+    background-color: rgba(102, 111, 111, 0.39);
     z-index: 2;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
     -webkit-transform: scale(0);
     transform: scale(0);
-    
 }
 
 .portfolio2 .project-content:hover .project-overflow{
@@ -5018,20 +5017,19 @@ hr.shadowDown {
 }
 
 .portfolio2 .project-content:hover:before{
-    background-color: rgba(25, 28, 51, 0.8);
+    background-color: rgba(11, 25, 131, 0.8);
     height: 100%;
     width: 100%;
     -webkit-transition: all 500ms ease 0s;
-    transition: all 500ms ease 0s;
-    
+    transition: all 500ms cubic-bezier(.8, 0.61, 0.36, 1) 2s;
 }
 
 .portfolio2 .project-content:hover:after{
-    background-color: rgba(25, 28, 51, 0.8);
+    /* background-color: rgba(25, 28, 51, 0.8); */
     height: 100%;
     width: 100%;
-     -webkit-transition: all 500ms ease 100ms;
-    transition: all 500ms ease 100ms;
+    -webkit-transition: all 500ms cubic-bezier(0.55, 0.06, 0.68, 0.19) 100ms;
+    /* transition: all 500ms ease 100ms; */
 }
 
 .project-content:before{
@@ -5041,10 +5039,10 @@ hr.shadowDown {
     top: 0;
     height: 0;
     content: '';
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     -webkit-transition: all 500ms ease 500ms;
-    transition: all 500ms ease 500ms;
+    transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 500ms;
     width: 0;
     z-index: 0;
 }
@@ -5053,14 +5051,14 @@ hr.shadowDown {
 .portfolio2 .project-content:after{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: rgba(25, 28, 51, 0.5);
+    /* background: rgba(25, 28, 51, 0.5); */
     bottom: 0;
     height: 0;
     content: '';
     position: absolute;
     left: 0;
-    -webkit-transition: all 500ms ease 550ms;
-    transition: all 500ms ease 550ms;
+    -webkit-transition: all 500ms cubic-bezier(0.4, 0, 1, 1) 550ms;
+    /* transition: all 500ms ease 550ms; */
     width: 0;
     z-index: 0;
 }
