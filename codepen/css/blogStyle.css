@@ -1,0 +1,26 @@
+.card-body{background-color: #ccc;min-width:350px;}
+.card {max-width:70%;margin: 0 auto;}
+.shade {border:none;box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.4);transition-duration: 1s;}
+.shade:hover {border:none;box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.7);}
+.btn:hover {border: 2px solid #000;}
+.mod {width: 100%;margin: 0 auto;overflow: hidden;}
+.line-clamp {display: -webkit-box;-webkit-line-clamp: 7;-webkit-box-orient: vertical;} 
+.modal{width:100%;overflow:auto;}
+.img-responsive{width:100%;min-height:100%;}
+.btn-light:focus, .btn-light.focus{box-shadow:none;}
+.btn-light{border-width:2px;}
+.btn:hover, .btn-default {border:none;}
+/* Mobile Breakpoints */
+
+@media (max-width: 776px){
+  .card-body, .card {max-width:55%;}
+  img{min-width:350px;}
+}
+
+@media (min-width: 576px){
+.modal-dialog {max-width: 70%;}
+}
+
+
+
+
